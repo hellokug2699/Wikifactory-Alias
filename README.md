@@ -4,7 +4,6 @@
 
 别名让用户手输的「非正式路径」也能落到正确页面，并作为**搜索次要命中**出现在结果里。
 映射由维护者**手动维护**；本仓库不含任何站点代码，构建时由站点同步读取。
-别名的目标来自内容仓库 [Wikifactory-Content](https://github.com/hellokug2699/Wikifactory-Content)。
 
 ## 格式
 
