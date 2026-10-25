@@ -3,8 +3,8 @@
 [Wikifactory](https://wikifactory.top) 的**页面别名**映射仓库（公开）。
 
 别名让用户手输的「非正式路径」也能落到正确页面，并作为**搜索次要命中**出现在结果里。
-映射由开发团队**手动维护**；本仓库不含任何站点代码，构建时由 Core 仓库的
-`npm run content:sync` 同步到本地 `./aliases` 后读取。
+映射由维护者**手动维护**；本仓库不含任何站点代码，构建时由站点同步读取。
+别名的目标来自内容仓库 [Wikifactory-Content](https://github.com/hellokug2699/Wikifactory-Content)。
 
 ## 格式
 
@@ -41,6 +41,6 @@ satis-buildings: Satisfactory/Buildings                  # 目标 = 分类键 <�
 ## 校验（仅警告）
 
 冲突 / 无效别名（与真实路径冲突、彼此重名含大小写、目标不存在）**仅警告并在构建期丢弃**，
-不阻断站点构建。可在 Core 仓库运行 `npm run alias:validate` 本地查看警告详情。
+不阻断站点构建。本仓库不含校验脚本，警告详情由站点构建输出。
 
 > ⚠️ 本仓库公开可读，**请勿提交任何密钥、令牌、凭据或个人隐私信息**。
