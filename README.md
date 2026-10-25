@@ -1,9 +1,12 @@
 # Wikifactory-Alias
 
+> 本仓库为独立的非官方 Wikifactory 相关资料/社区项目，与 wikifactory.com 及其运营方无任何关联，不代表官方立场，亦不用于任何商业目的。本站/本项目不提供任何产品开发、CAD 协作或制造对接服务。
+
 [Wikifactory](https://wikifactory.top) 的**页面别名**映射仓库（公开）。
 
 别名让用户手输的「非正式路径」也能落到正确页面，并作为**搜索次要命中**出现在结果里。
 映射由维护者**手动维护**；本仓库不含任何站点代码，构建时由站点同步读取。
+别名的目标来自公开的内容仓库 [Wikifactory-Content](https://github.com/hellokug2699/Wikifactory-Content)。
 
 ## 格式
 
